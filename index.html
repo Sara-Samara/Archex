@@ -1,0 +1,903 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Archex</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Pacifico&family=Paprika&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+
+    <div class="loader-container">
+        <div class="loader"></div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg text-uppercase bg-body-tertiary fixed-top">
+        <div class="container-fluid ">
+            <a class="navbar-brand nav" href="#">
+                <img class="w-50 h-50" id="navbar-logo" src="./assets/img/nav/logo-light.png" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="justify-content-center collapse navbar-collapse navbar-nav-link" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 d-flex gap-4 nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages.html">Pages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <header class="header">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper ">
+                <div class="swiper-slide">
+                    <img class="darkened-img" src="./assets/img/header/background1.jpg" alt="Image 1">
+                </div>
+                <div class="swiper-slide">
+                    <img class="darkened-img" src="./assets/img/header/background2.jpg" alt="Image 2">
+                </div>
+                <div class="swiper-slide">
+                    <img class="darkened-img" src="./assets/img/header/background3.jpg" alt="Image 3">
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="header-contant d-flex flex-column ms-3 align-items-start justify-content-center">
+                    <h6 class="fs-5 fw-light custom-sub-text animate-element animate__slow">DISCOVER ARCHEX
+                    </h6>
+                    <h1 class="text-start fw-light custom-text animate-element animate__slow">
+                        CREATIVE
+                        <br>
+                        <span class="dynamic-text animate-element text-uppercase animate__slow">Urban Design</span>
+                    </h1>
+                    <p class="animate-element  mt-2 animate__slow custom-p">Architecture viverra tristiquen justo
+                        duis vitaen
+                        damin neque nivam aestan the miss fermen.</p>
+                    <a href="#" class="btn fw-light animate-element animate__slow">
+                        <span>Explore More</span>
+                        <i class="fa-solid fa-arrow-right" style="transform: rotate(315deg);"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="about-us">
+        <div class="container">
+            <div class="row">
+                <div class="about-us-text pt-4">
+                    <h6 class="fs-5 fw-lighter mb-1 mt-2 text-uppercase">about us</h6>
+                    <h2 class="mb-3 text-uppercase"><span>Archex.</span> <br> Architecture</h2>
+                    <p class="fw-light mb-3">Architecture quisque sodales intioni varius estibulum rana tonton miss
+                        ortiton telus euismod nis the massa odio miss farmen lorem etium thesit ametis fermen.</p>
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fa-solid fa-check me-1 fs-4"></i>
+                        <p class="mb-0">Custom Modern Design</p>
+                    </div>
+                    <div class="d-flex align-items-center mb-4">
+                        <i class="fa-solid fa-check me-1 fs-4"></i>
+                        <p class="mb-0">24 Years of Experience</p>
+                    </div>
+                    <a href="#" class="btn fw-light exploreBtn" id="exploreBtn">
+                        <span>Explore More</span>
+
+                        <i class="fa-solid fa-arrow-right" style="transform: rotate(315deg); color: #fff;"></i>
+                    </a>
+                </div>
+                <div class="img-cont">
+                    <div
+                        class="card mt-6 position-relative d-flex justify-content-end align-items-start ps-0 pb-0 pe-0 ">
+                        <div class="icon position-relative">
+                            <a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#videoModal">
+                                <i class="fa-solid fa-play"></i>
+                            </a>
+                        </div>
+                        <h4 class="arx-img-video-title position-absolute mb-4 text-uppercase">Watch Video</h4>
+                    </div>
+                </div>
+
+
+
+                <!-- Modal للفيديو -->
+                <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="videoModalLabel">Architecture Design</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <iframe width="100%" height="400" src="https://www.youtube.com/embed/Tqoe_nDx3ps"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen style="border: none;"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="popup-img" id="imagePopup">
+                    <span class="close-btn closeBtn" id="closeBtn">&times;</span>
+                    <img src="./assets/img/header/background1.jpg" alt="Image 1">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="works ">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex justify-content-center align-items-center">
+                    <div class="row">
+                        <h6 class="fs-5 fw-lighter mb-1 mt-2 text-uppercase text-center" style="color: #c5a47e;">
+                            Projects</h6>
+                        <h2 class="mb-0 fs-1 fw-light text-uppercase text-center">Our Works</h2>
+                    </div>
+                </div>
+
+                <div class="swiper mySwiper mt-4 ">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card card-1">
+                                <div class="icon">
+                                    <a href="#" class="btn">
+                                        <i class="fa-solid fa-arrow-right" style="transform: rotate(315deg);"></i>
+                                    </a>
+                                </div>
+                                <div class="img-title">
+                                    <h4 class="fw-light text-uppercase">Dark Brown Towel</h4>
+                                    <div class="location-div d-flex justify-content-start align-items-start gap-2">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        <h6 class="fw-lighter">Victoria</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card card-2">
+                                <div class="icon">
+                                    <a href="#" class="btn">
+                                        <i class="fa-solid fa-arrow-right" style="transform: rotate(315deg);"></i>
+                                    </a>
+                                </div>
+                                <div class="img-title">
+                                    <h4 class="fw-light text-uppercase">Modern ART Museum</h4>
+                                    <div class="location-div d-flex justify-content-start align-items-start gap-2">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        <h6 class="fw-lighter">Florida</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card card-3">
+                                <div class="icon">
+                                    <a href="#" class="btn">
+                                        <i class="fa-solid fa-arrow-right" style="transform: rotate(315deg);"></i>
+                                    </a>
+                                </div>
+                                <div class="img-title">
+                                    <h4 class="fw-light text-uppercase">Dark Glass Office</h4>
+                                    <div class="location-div d-flex justify-content-start align-items-start gap-2">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        <h6 class="fw-lighter">Georgia</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card card-4">
+                                <div class="icon">
+                                    <a href="#" class="btn">
+                                        <i class="fa-solid fa-arrow-right" style="transform: rotate(315deg);"></i>
+                                    </a>
+                                </div>
+                                <div class="img-title">
+                                    <h4 class="fw-light text-uppercase">Private Modern Villa</h4>
+                                    <div class="location-div d-flex justify-content-start align-items-start gap-2">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        <h6 class="fw-lighter">New York</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card card-5">
+                                <div class="icon">
+                                    <a href="#" class="btn">
+                                        <i class="fa-solid fa-arrow-right" style="transform: rotate(315deg);"></i>
+                                    </a>
+                                </div>
+                                <div class="img-title">
+                                    <h4 class="fw-light text-uppercase">Soft Modern Home</h4>
+                                    <div class="location-div d-flex justify-content-start align-items-start gap-2">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        <h6 class="fw-lighter">Washington</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide ">
+                            <div class="card card-6">
+                                <div class="icon">
+                                    <a href="#" class="btn">
+                                        <i class="fa-solid fa-arrow-right" style="transform: rotate(315deg);"></i>
+                                    </a>
+                                </div>
+                                <div class="img-title">
+                                    <h4 class="fw-light text-uppercase">Villa Space Desgin</h4>
+                                    <div class="location-div d-flex justify-content-start align-items-start gap-2">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        <h6 class="fw-lighter">California</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Services d-flex gap-1">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex justify-content-center align-items-center">
+                    <div class="row">
+                        <h6 class="fs-5 fw-lighter mb-2 mt-2 text-uppercase text-center" style="color: #c5a47e;">Best
+                            Features</h6>
+                        <h2 class="mb-0 fs-1 fw-light text-uppercase text-center ">Our Services</h2>
+                    </div>
+                </div>
+
+                <div class="swiper mySwiper mt-4 ">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card card-1">
+                                <div class="icon">
+                                    <a href="#" class="btn">
+                                        <img src="./assets/img/Services/house.svg" class="img-fluid w-100" />
+                                    </a>
+                                </div>
+                                <div class="img-title">
+                                    <h4 class="text-uppercase text-start">Architecture</h4>
+                                    <p class="text-start">Lorem ipsum dolor miss onso altin<br>amen the in constran
+                                        adipiscing<br>entesue
+                                        in the
+                                        fermen.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="card card-2">
+                                <div class="icon">
+                                    <a href="#" class="btn">
+
+                                        <img src="./assets/img/Services/interiorplanning.svg" class="img-fluid w-100" />
+                                    </a>
+                                </div>
+                                <div class="img-title">
+                                    <h4 class="text-uppercase  text-start">3D Modelling</h4>
+                                    <p class="text-start">Lorem ipsum dolor miss onso altin<br>amen the in constran
+                                        adipiscing<br>entesue
+                                        in the
+                                        fermen.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="card card-3">
+                                <div class="icon">
+                                    <a href="#" class="btn">
+                                        <img src="./assets/img/Services/room.svg" class="img-fluid w-100"></img>
+                                    </a>
+                                </div>
+                                <div class="img-title">
+                                    <h4 class="text-uppercase text-start">Interior Design</h4>
+                                    <p class="text-start">Lorem ipsum dolor miss onso altin<br>amen the in constran
+                                        adipiscing<br>entesue
+                                        in the
+                                        fermen.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="card card-4">
+                                <div class="icon">
+                                    <a href="#" class="btn">
+                                        <img src="./assets/img/Services/medievalhouse.svg"
+                                            class="img-fluid w-100"></img>
+                                    </a>
+                                </div>
+                                <div class="img-title">
+                                    <h4 class="text-uppercase text-start">Urban Design</h4>
+                                    <p class="text-start">Lorem ipsum dolor miss onso altin<br>amen the in constran
+                                        adipiscing<br>entesue
+                                        in the
+                                        fermen.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="card card-5">
+                                <div class="icon">
+                                    <a href="#" class="btn">
+                                        <img src="./assets/img/Services/blueprint.svg" class="img-fluid w-100"></img>
+                                    </a>
+                                </div>
+                                <div class="img-title">
+                                    <h4 class="text-uppercase text-start">planning</h4>
+                                    <p class="text-start">Lorem ipsum dolor miss onso altin<br>amen the in constran
+                                        adipiscing<br>entesue
+                                        in the
+                                        fermen.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="card card-6">
+                                <div class="icon">
+                                    <a href="#" class="btn">
+                                        <img src="./assets/img/Services/sketch.svg" class="img-fluid w-100"></img>
+                                    </a>
+                                </div>
+                                <div class="img-title">
+                                    <h4 class="text-uppercase text-start">Decor Plan</h4>
+                                    <p class="text-start">Lorem ipsum dolor miss onso altin<br>amen the in constran
+                                        adipiscing<br>entesue
+                                        in the
+                                        fermen.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Promo ">
+        <div class="img-container">
+
+            <div class="text-container">
+                <div class="container">
+                    <h6 class="mb-1 mt-2 text-uppercase text-center" style="color: #c5a47e;">Explore</h6>
+                    <h2 class="text-uppercase text-center">Promo Video</h2>
+                    <div class="icon position-relative">
+                        <a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#videoModal">
+                            <i class="fa-solid fa-play fs-3"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="team">
+        <div class="container">
+            <div class="row">
+                <div class="team-link">
+
+                    <div class="row-text">
+                        <h6 class="text-uppercase ">Seniors</h6>
+                        <h2 class="text-uppercase ">Our Team</h2>
+                        <p>Architecture quisque sodales miss in the<br> variustion vestibulum drana tonton turpis<br>
+                            porttiton tellus the in the fermen.</p>
+
+                        <a href="#" class="btn fw-light exploreBtn" id="exploreBtn">
+                            <span class="fw-light fs-5">All Team
+                            </span>
+                            <i class="fa-solid fa-arrow-right ms-3" style="transform: rotate(315deg); color: #fff;"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="swiper mySwiper team-info ">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card card-1">
+                                <div class="icon">
+                                    <a href="#" class="btn">
+                                        <i class="fa-solid fa-info"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card card-2">
+                                <div class="icon">
+                                    <a href="#" class="btn">
+                                        <i class="fa-solid fa-info"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card card-3">
+                                <div class="icon">
+                                    <a href="#" class="btn">
+                                        <i class="fa-solid fa-info"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card card-4">
+                                <div class="icon">
+                                    <a href="#" class="btn">
+                                        <i class="fa-solid fa-info"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card card-5">
+                                <div class="icon">
+                                    <a href="#" class="btn">
+                                        <i class="fa-solid fa-info"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="swiper-slide ">
+                            <div class="card card-6">
+                                <div class="icon">
+                                    <a href="#" class="btn">
+                                        <i class="fa-solid fa-info"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Clients d-flex gap-1">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex justify-content-center align-items-center">
+                    <div class="row">
+                        <h6 class="fs-5 fw-lighter mb-2 mt-2 text-uppercase text-center" style="color: #c5a47e;">
+                            Testimonials</h6>
+                        <h2 class="mb-0 fs-1 fw-light text-uppercase text-center ">What <span
+                                style="color: #c5a47e;">Clients</span> Say</h2>
+                    </div>
+                </div>
+
+                <div class="swiper mySwiper ">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card card-1">
+                                <div class="icon">
+                                    <a href="#" class="btn">
+                                    </a>
+                                </div>
+                                <div class="img-title d-flex align-items-start flex-column">
+                                    <i class="fa-solid fa-quote-left fa-2x"></i>
+                                    <p class="text-start">Lorem ipsum dolor miss onso altin<br>amen the in constran
+                                        adipiscing<br>entesue
+                                        in the
+                                        fermen.</p>
+                                </div>
+                                <div class="costom-img-title w-50">
+                                    <h4 class="text-uppercase">Liam Brown</h4>
+                                    <h6 class="">custom</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="card card-2">
+                                <div class="icon">
+                                    <a href="#" class="btn">
+                                    </a>
+                                </div>
+                                <div class="img-title d-flex align-items-start flex-column">
+                                    <i class="fa-solid fa-quote-left fa-2x"></i>
+                                    <p class="text-start">Lorem ipsum dolor miss onso altin<br>amen the in constran
+                                        adipiscing<br>entesue
+                                        in the
+                                        fermen.</p>
+                                </div>
+                                <div class="costom-img-title w-50">
+                                    <h4 class="text-uppercase">Anna Sarah</h4>
+                                    <h6 class="">custom</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="card card-3">
+                                <div class="icon">
+                                    <a href="#" class="btn">
+                                    </a>
+                                </div>
+                                <div class="img-title d-flex align-items-start flex-column">
+                                    <i class="fa-solid fa-quote-left fa-2x"></i>
+                                    <p class="text-start">Lorem ipsum dolor miss onso altin<br>amen the in constran
+                                        adipiscing<br>entesue
+                                        in the
+                                        fermen.</p>
+                                </div>
+                                <div class="costom-img-title w-50">
+                                    <h4 class="text-uppercase">Lucas White</h4>
+                                    <h6 class="">custom</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="card card-4">
+                                <div class="icon">
+                                    <a href="#" class="btn">
+                                    </a>
+                                </div>
+                                <div class="img-title d-flex align-items-start flex-column">
+                                    <i class="fa-solid fa-quote-left fa-2x"></i>
+                                    <p class="text-start">Lorem ipsum dolor miss onso altin<br>amen the in constran
+                                        adipiscing<br>entesue
+                                        in the
+                                        fermen.</p>
+                                </div>
+                                <div class="costom-img-title w-50">
+                                    <h4 class="text-uppercase">Grace Martin</h4>
+                                    <h6 class="">custom</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="card card-5">
+                                <div class="icon">
+                                    <a href="#" class="btn">
+                                    </a>
+                                </div>
+                                <div class="img-title d-flex align-items-start flex-column">
+                                    <i class="fa-solid fa-quote-left fa-2x"></i>
+                                    <p class="text-start">Lorem ipsum dolor miss onso altin<br>amen the in constran
+                                        adipiscing<br>entesue
+                                        in the
+                                        fermen.</p>
+                                </div>
+                                <div class="costom-img-title w-50">
+                                    <h4 class="text-uppercase">Henry Mccury</h4>
+                                    <h6 class="">custom</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="card card-6">
+                                <div class="icon">
+                                    <a href="#" class="btn">
+                                    </a>
+                                </div>
+                                <div class="img-title d-flex align-items-start flex-column">
+                                    <i class="fa-solid fa-quote-left fa-2x"></i>
+                                    <p class="text-start">Lorem ipsum dolor miss onso altin<br>amen the in constran
+                                        adipiscing<br>entesue
+                                        in the
+                                        fermen.</p>
+                                </div>
+                                <div class="costom-img-title w-50">
+                                    <h4 class="text-uppercase">Tyler Cooper</h4>
+                                    <h6 class="">custom</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    <section class="Latest-Articles "
+        style="background: linear-gradient(to bottom, #f9f6f3 40%, #fff 50%); padding-top: 5%;">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex justify-content-center align-items-center">
+                    <div class="row">
+                        <h6 class="fs-5 fw-lighter mb-1 mt-2 text-uppercase text-center" style="color: #c5a47e;">
+                            Our Blog</h6>
+                        <h2 class="mb-0 fs-1 fw-light text-uppercase text-center">Latest Articles</h2>
+                    </div>
+                </div>
+
+                <div class="swiper mySwiper mt-4 " style="background: transparent;">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" style="background: transparent;">
+
+                            <div class="card card-1">
+                                <div class="icon">
+                                    <a href="#" class="btn">
+                                        <i class="fa-solid fa-arrow-right"
+                                            style="transform: rotate(315deg); display: none; color: #fff !important;"></i>
+                                        <h4 class="w-100 fs-5 fw-bold pb-0 mb-0 mt-0">11</h4>
+                                        <h6 class="w-100 fw-light" style="font-size: 12px;">Nov
+                                        </h6>
+                                    </a>
+                                </div>
+                                <div class="img-title w-75 mt-2 pt-4">
+                                    <h4 class="text-uppercase text-start">
+                                        Building a
+                                        Mountain
+                                        Private
+                                        Villa
+                                    </h4>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="swiper-slide" style="background: transparent;">
+                            <div class="card card-2">
+                                <div class="icon">
+                                    <a href="#" class="btn">
+                                        <i class="fa-solid fa-arrow-right"
+                                            style="transform: rotate(315deg); display: none; color: #fff !important;"></i>
+                                        <h4 class="w-100 fs-5 fw-bold pb-0 mb-0 mt-0">29</h4>
+                                        <h6 class="w-100 fw-light" style="font-size: 12px;">Sep
+                                        </h6>
+                                    </a>
+                                </div>
+                                <div class="img-title w-75 mt-2 pt-4">
+                                    <h4 class="text-uppercase text-start w-100">
+                                        Creating Luxury Geometric Structure
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide" style="background: transparent;">
+                            <div class="card card-3">
+                                <div class="icon">
+                                    <a href="#" class="btn">
+                                        <i class="fa-solid fa-arrow-right"
+                                            style="transform: rotate(315deg); display: none; color: #fff !important;"></i>
+                                        <h4 class="w-100 fs-5 fw-bold pb-0 mb-0 mt-0">14</h4>
+                                        <h6 class="w-100 fw-light" style="font-size: 12px;">Sep
+                                        </h6>
+                                    </a>
+                                </div>
+                                <div class="img-title w-75 mt-2 pt-4">
+                                    <h4 class="text-uppercase text-start w-75">
+                                        Construction of a Terrace Structure</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide" style="background: transparent;">
+                            <div class="card card-4">
+                                <div class="icon">
+                                    <a href="#" class="btn">
+                                        <i class="fa-solid fa-arrow-right"
+                                            style="transform: rotate(315deg); display: none; color: #fff !important;"></i>
+                                        <h4 class="w-100 fs-5 fw-bold pb-0 mb-0 mt-0">9</h4>
+                                        <h6 class="w-100 fw-light" style="font-size: 12px;">Sep
+                                        </h6>
+                                    </a>
+                                </div>
+                                <div class="img-title w-75 mt-2 pt-4">
+
+                                    <h4 class="text-uppercase text-start w-75">
+                                        Modern Structure in Exterior Design
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide" style="background: transparent;">
+                            <div class="card card-5">
+                                <div class="icon">
+                                    <a href="#" class="btn">
+                                        <i class="fa-solid fa-arrow-right"
+                                            style="transform: rotate(315deg); display: none; color: #fff !important;"></i>
+                                        <h4 class="w-100 fs-5 fw-bold pb-0 mb-0 mt-0">24</h4>
+                                        <h6 class="w-100 fw-light" style="font-size: 12px;">Aug
+                                        </h6>
+                                    </a>
+                                </div>
+                                <div class="img-title w-75 mt-2 pt-4">
+
+                                    <h4 class="text-uppercase text-start w-75">
+                                        Urban Design & Tower Building
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide" style="background: transparent;">
+                            <div class="card card-6">
+                                <div class="icon">
+                                    <a href="#" class="btn">
+                                        <i class="fa-solid fa-arrow-right"
+                                            style="transform: rotate(315deg); display: none; color: #fff !important;"></i>
+                                        <h4 class="w-100 fs-5 fw-bold pb-0 mb-0 mt-0">12</h4>
+                                        <h6 class="w-100 fw-light" style="font-size: 12px;">Aug
+                                        </h6>
+                                    </a>
+                                </div>
+                                <div class="img-title w-75 mt-2 pt-4">
+
+                                    <h4 class="text-uppercase text-start w-75">
+                                        Importance of Geometric Design
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="Contact-Us">
+        <div class="img-container">
+
+            <div class="text-container">
+                <div class="container">
+                    <h6 class="text-uppercase text-start w-100 mt-0 mb-3">Contact Us
+                    </h6>
+                    <h2 class="text-uppercase text-start mb-4">Let’s talk.<br>
+                        Have a project in mind?</h2>
+                    <div class="icon position-relative w-100">
+                        <a href="#" class="">
+                            <i class="fa-brands fa-instagram me-3 ms-1"></i>
+                        </a>
+                        <a href="#" class="">
+                            <i class="fa-brands fa-twitter me-3"></i>
+                        </a>
+                        <a href="#" class="">
+                            <i class="fab fa-behance me-3"></i>
+                        </a>
+                        <a href="#" class="">
+                            <i class="fa-brands fa-whatsapp me-3"></i>
+                        </a>
+
+                        <div class="vertical-line"></div>
+
+                        <a href="#" class="">
+                            architecture@archex.com
+                        </a>
+
+                        <div class="vertical-line"></div>
+
+                        <a href="#" class="">
+                            +(1) 123 456 7890
+                        </a>
+
+                        <div class="vertical-line"></div>
+
+                        <a href="#" class="">
+                            Contact
+                            <i class="ms-0 fa-solid fa-arrow-right" style="transform: rotate(315deg);"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-logo d-flex flex-column">
+                    <img src="./assets/img/nav/logo-light.png" />
+                    <p>Archex architecture miss in the sapien sertiton<br> miss bibenum the erat nesuen fermen.</p>
+                    <div class="links">
+                        <a href="#" class="btn"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="btn"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#" class="btn"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="#" class="btn"><i class="fa-brands fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h6 class="text-uppercase text-start w-100">Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="Subscribe">
+                    <h6 class="text-uppercase text-start w-100 ">Subscribe</h6>
+                    <p>Want to be notified about our services. Just sign<br> up and we'll send you a notification by
+                        email.
+                    </p>
+                    <div class="form-group d-flex">
+                        <input type="email" class="form-control" placeholder="Email Address">
+                        <a type="submit" class="btn btn-primary">
+                            <i class="ms-0 fa-solid fa-arrow-right" style="transform: rotate(315deg);"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="Horizantal-line"></div>
+            <p class="footer-copyright">
+                ©2025 <span>webRedox</span>. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <div id="arrow-container">
+        <i id="arrow" class="fa-solid fa-arrow-up"></i>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <script src="./assets/js/main.js" defer></script>
+</body>
+
+</html>
